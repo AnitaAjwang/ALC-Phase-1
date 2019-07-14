@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to ALC 4.0"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:layout_marginBottom="50sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/baristabold"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_alc_button"
+        android:text="  ABOUT ALC  "
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@color/black"
+        android:fontFamily="@font/baristasemibold"
+        android:background="@drawable/rounded_borders"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40sp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_profile_button"
+        android:text="  MY PROFILE  "
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_borders"
+        android:fontFamily="@font/baristasemibold"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

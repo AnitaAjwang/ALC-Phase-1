@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ALC Phase One</string>
+    <string name="alc_phase">ALC 4 Phase 1</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+    <string name="website_url">https://andela.com/alc/</string>
+    <string name="website_domain">andela.com</string>
+    <string name="profile_name">Anita Ajwang Otieno</string>
+    <string name="profile_email">anitaajwang@gmail.com</string>
+    <string name="profile_number">254702xxx407</string>
+    <string name="profile_country">Kenya</string>
+    <string name="profile_slack_name">""@Anita Ajwang Otieno</string>
+    <string name="profile_track">Android</string>
+</resources>
